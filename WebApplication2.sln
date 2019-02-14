@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28531.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{BAAE1915-4108-4D32-A22A-0AEF61E995CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsCrudApi", "WindowsFormsCrudApi\WindowsFormsCrudApi.csproj", "{24217A2B-1633-43B4-8932-72D0A1432D0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAAE1915-4108-4D32-A22A-0AEF61E995CC} = {BAAE1915-4108-4D32-A22A-0AEF61E995CC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,15 @@ Global
 		{BAAE1915-4108-4D32-A22A-0AEF61E995CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAAE1915-4108-4D32-A22A-0AEF61E995CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAAE1915-4108-4D32-A22A-0AEF61E995CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24217A2B-1633-43B4-8932-72D0A1432D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24217A2B-1633-43B4-8932-72D0A1432D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24217A2B-1633-43B4-8932-72D0A1432D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24217A2B-1633-43B4-8932-72D0A1432D0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9C2FC1-8873-4D76-9B00-FAD0AF530884}
 	EndGlobalSection
 EndGlobal
