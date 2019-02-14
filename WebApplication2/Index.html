@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div>
+        <h4>Please Enter a Positive Integer Number</h4>
+    </div>
+    <div>
+        <input id="GetId" type="number" /><input type="button" value="Check Result" onclick="GetStu();" />
+        <p id="resultAttachHere"></p>
+    </div>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+
+        var link = 'api/PrimeGame';
+        $(document)
+
+        function GetVal(studet)
+        {
+            return "Name: " + studet.stuName + " , Age: " + studet.stuAge
+        }
+        function GetStu()
+        {
+            var id = $("#GetId")
+                .val();
+            $.getJSON(link + '/' + id)
+                .done(function(data)
+               {
+                    $("#resultAttachHere")
+                        .text(data.resString)
+                })
+                .fail(function()
+                {
+                    $("#resultAttachHere")
+                    // .text("Not a valid input");
+                       .text("Not a Prime number, error code -1");
+                });
+        }
+    </script>
+</body>
+
+</html>  
