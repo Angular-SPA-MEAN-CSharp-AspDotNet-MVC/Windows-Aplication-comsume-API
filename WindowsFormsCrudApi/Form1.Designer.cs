@@ -28,13 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.getBtn = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.postBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(99, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(239, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Plese input the API URI, or use the default value:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(102, 86);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(236, 20);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "http://localhost:21884/api/Emerson";
+            // 
+            // getBtn
+            // 
+            this.getBtn.Location = new System.Drawing.Point(365, 86);
+            this.getBtn.Name = "getBtn";
+            this.getBtn.Size = new System.Drawing.Size(75, 23);
+            this.getBtn.TabIndex = 2;
+            this.getBtn.Text = "GET";
+            this.getBtn.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(102, 136);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(236, 21);
+            this.comboBox1.TabIndex = 3;
+            // 
+            // postBtn
+            // 
+            this.postBtn.Location = new System.Drawing.Point(365, 133);
+            this.postBtn.Name = "postBtn";
+            this.postBtn.Size = new System.Drawing.Size(75, 23);
+            this.postBtn.TabIndex = 4;
+            this.postBtn.Text = "POST";
+            this.postBtn.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.postBtn);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.getBtn);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button getBtn;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button postBtn;
     }
 }
 

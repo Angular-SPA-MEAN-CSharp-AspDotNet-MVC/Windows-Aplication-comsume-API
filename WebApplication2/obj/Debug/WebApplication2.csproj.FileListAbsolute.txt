@@ -79,7 +79,6 @@ C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\bin\Newtons
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\bin\System.Net.Http.Formatting.xml
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\bin\System.Web.Http.xml
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\bin\System.Web.Http.WebHost.xml
-C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojAssemblyReference.cache
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
