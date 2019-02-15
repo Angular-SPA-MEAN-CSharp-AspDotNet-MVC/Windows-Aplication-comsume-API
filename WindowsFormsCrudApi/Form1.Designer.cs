@@ -80,6 +80,7 @@
             this.postBtn.TabIndex = 4;
             this.postBtn.Text = "POST";
             this.postBtn.UseVisualStyleBackColor = true;
+            this.postBtn.Click += new System.EventHandler(this.PostBtn_Click);
             // 
             // Form1
             // 
