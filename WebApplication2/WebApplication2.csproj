@@ -122,9 +122,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\NelsonJd.cs" />
-    <Compile Include="Models\PrimeGame.cs" />
-    <Compile Include="Controllers\PrimeGameController.cs" />
+    <Compile Include="Models\EmersonJd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
