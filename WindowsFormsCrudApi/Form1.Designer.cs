@@ -71,6 +71,7 @@
             this.comboBoxDDL.Name = "comboBoxDDL";
             this.comboBoxDDL.Size = new System.Drawing.Size(236, 21);
             this.comboBoxDDL.TabIndex = 3;
+            this.comboBoxDDL.SelectedIndexChanged += new System.EventHandler(this.OnSelectedIndexChanged);
             // 
             // postBtn
             // 

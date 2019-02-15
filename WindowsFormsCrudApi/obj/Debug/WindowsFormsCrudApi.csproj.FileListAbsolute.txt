@@ -2,6 +2,7 @@ C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\bin\Deb
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\bin\Debug\WindowsFormsCrudApi.exe
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\bin\Debug\WindowsFormsCrudApi.pdb
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\obj\Debug\WindowsFormsCrudApi.Form1.resources
+C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\obj\Debug\WindowsFormsCrudApi.Form2.resources
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\obj\Debug\WindowsFormsCrudApi.Properties.Resources.resources
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\obj\Debug\WindowsFormsCrudApi.csproj.GenerateResource.cache
 C:\Users\HP Desk\Desktop\start point\WebApplication2\WindowsFormsCrudApi\obj\Debug\WindowsFormsCrudApi.csproj.CoreCompileInputs.cache

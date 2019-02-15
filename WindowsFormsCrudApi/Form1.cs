@@ -142,13 +142,26 @@ namespace WindowsFormsCrudApi
                         comboBoxDDL.Items.Add(new ListItem(deserializedResult[i].dayWk, deserializedResult[i].dateObj.timeVal.ToString()));
                     }
                 }
-                catch
+                catch // Handle all except. ToDo
                 {
                     // Some error cases:
                     // Either the APIs are not set up, or the API can not handle
                 }
 
             }
+        }
+
+        protected void OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            Form2 modal = new Form2();
+            string message;
+            message = ((System.Web.UI.WebControls.ListItem)comboBoxDDL.SelectedItem).Text + " - ";
+            message += ((System.Web.UI.WebControls.ListItem)comboBoxDDL.SelectedItem).Value;
+            modal.LabelText = message;
+
+            modal.ShowDialog();
+            
         }
     }
 }
